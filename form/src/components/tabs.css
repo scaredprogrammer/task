@@ -1,0 +1,37 @@
+.nav-link.active{
+    /* background-color: .6fccf9f2;  */
+}
+.nav .nav-link{
+    color:black;
+    max-width: 15em;
+    padding: .5em .8em;
+    background-color: blanchedalmond;
+}
+.nav .nav-link.active{
+   color:black;
+   background-color: #6fccf9f2; 
+}
+.nav {
+    margin-right:0px ;
+}
+
+
+.son1{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+.wrapper > div{
+    background-color: #eee;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+    background-color: #ddd;
+}
+.nav .nav-link span{
+    margin-left: 10px;
+}
